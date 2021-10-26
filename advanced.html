@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google</title>
+        <link rel="icon" href="img/favicon.ico">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id = links>
+            <a href="images.html" class = imglink>Images</a>
+            <a href="index.html" class = imglink>Search</a>
+        </div>
+        <img id = "logosmall" src="img/logo2.svg" alt="Google Logo">
+        <label id = "bar">Advanced Search</label>
+        <hr style="width:100%;">
+        <span id = "bar2">Find pages with...</span>
+        <form action="https://google.com/search">
+            <div class = divs>
+            <label class = "smalltext">all these words:</label>
+            <input class = inputsmall type="text" name="as_q">
+            </div><div class = divs>
+            <label class = "smalltext">this exact word or phrase:</label>
+            <input class = inputsmall type="text" name="as_epq">
+            </div><div class = divs>
+            <label class = "smalltext">any of these words:</label>
+            <input class = inputsmall type="text" name="as_oq">
+            </div><div class = divs>
+            <label class = "smalltext">none of these words:</label>
+            <input class = inputsmall type="text" name="as_eq">
+            </div>
+            <input id = button1 type="submit" value="Advanced Search">
+        </form>
+    </body>
+</html>
